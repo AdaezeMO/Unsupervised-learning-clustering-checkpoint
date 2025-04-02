@@ -44,7 +44,7 @@ Seaborn: Statistical data visualization
 SciPy: Scientific computing
 Scikit-learn: Machine learning algorithms
 ### Libraries Used.
-```
+```python
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -52,5 +52,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
 from scipy import stats
-from sklearn.preprocessing import StandardScaler from scipy.cluster.hierarchy import dendrogram, linkage
-```
+from sklearn.preprocessing import StandardScaler
+from scipy.cluster.hierarchy import dendrogram, linkage
